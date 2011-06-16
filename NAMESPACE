@@ -1,0 +1,14 @@
+
+importFrom(Biobase, selectSome)
+
+
+exportClasses("ClinicalExperiment", "ClinicalTrial", "PatientData",
+   "PatientID", "Randomizer", "RandomizerDesc")
+
+export(getTreatment, getEnrolleeInfo, createTrial, validPID,
+   makeRandomizer, treatmentFactors, factorNames,
+   treatmentNames, numberOfTreatments, treatmentFactors, numberOfFactorLevels,
+   minimizeTaves, minimizePocSim , simPats)
+
+exportMethods("randomization<-")
+
