@@ -1,5 +1,6 @@
 
 importFrom(Biobase, selectSome)
+import(methods)
 
 
 exportClasses("ClinicalExperiment", "ClinicalTrial", "PatientData",

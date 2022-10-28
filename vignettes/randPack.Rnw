@@ -11,7 +11,7 @@
 
 \documentclass[12pt]{article}
 
-\usepackage{amsmath,pstricks}
+\usepackage{amsmath}
 \usepackage[authoryear,round]{natbib}
 \usepackage{hyperref}
 
@@ -154,7 +154,7 @@ trts = c( A = 3L, B = 4L, C = 1L)
 Now we use the randomization description objects in the
 randomization slot to create a real clinical experiment
 representation.
-<<doce>>=
+<<doce2>>=
  CE1 = new("ClinicalExperiment",
     name="My first experiment",
     treatments = trts,
@@ -316,6 +316,11 @@ that the strata, and perhaps the trial, has reached its accrual goals).
 This could easily be extended to support other mechanisms of assigning
 patient IDs.
  
+\section{Session information}
+
+<<lkass>>=
+sessionInfo()
+@
 
 
 \end{document}
