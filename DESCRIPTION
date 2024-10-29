@@ -2,7 +2,7 @@ Package: randPack
 Title: Randomization routines for Clinical Trials
 Description: A suite of classes and functions for randomizing patients
         in clinical trials.
-Version: 1.52.0
+Version: 1.53.0
 Author: Vincent Carey <stvjc@channing.harvard.edu> and Robert Gentleman
 Maintainer: Robert Gentleman <rgentlem@gmail.com>
 Imports: Biobase
